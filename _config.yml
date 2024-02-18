@@ -1,7 +1,7 @@
 # Site
 name: "Curiosity"
 title: "Curiosity"
-description: "Seguindo a curiosidade no mundão de tech"
+description: "Siga a curiosidade no mundão de tech"
 logo: 'assets/images/logo.jpg'
 favicon: 'assets/images/logo.jpg'
 baseurl: /blog
