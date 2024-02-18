@@ -6,7 +6,7 @@ logo: 'assets/images/logo.jpg'
 favicon: 'assets/images/logo.jpg'
 baseurl: /blog
 # google_analytics: 'TODO'
-# disqus: 'TODO'
+disqus: 'davidalecrim1blog'
 include: ["_pages"]
 permalink: /:title/
 
