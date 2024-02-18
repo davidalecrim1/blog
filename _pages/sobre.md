@@ -5,4 +5,4 @@ permalink: /sobre
 comments: true
 ---
 
-TODO
+Página a ser criada.
