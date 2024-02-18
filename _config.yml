@@ -1,7 +1,7 @@
 # Site
 name: "Headless"
 title: "Headless"
-description: "Jekyll template, Medium styled, free for bloggers."
+description: "Um pouco de tudo sobre o mundo de tech"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /blog
