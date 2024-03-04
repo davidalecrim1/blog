@@ -10,12 +10,12 @@ comments: true
 Todo mundo em algum momento já precisou "dar um Google", buscar alguma informação que precisava, e achar o site onde pudesse se aprofundar no conteúdo desejado. Porém algo que não paramos para pensar durante essas consultas na internet é como essa indexação de conteúdos de bilhões de sites da internet é feita, e como os sites de mecanismos de busca, ou seja Bing, Google, Yandex e entre outros fazem essa apresentação de diversos resultados para nós, e ainda mais, como ela funciona?
 Neste artigo, vamos entender mais a fundo o que está "em baixo do capô" dos robôs que indexam conteúdos para os mecanismos de busca, e entender como o web crawling e web scraping são utilizados para as finalidades de indexação de conteúdos.
 
-## O Puppeteer
+### O Puppeteer
 O Puppeteer é uma produto para automação de browser, disponível para o Node.js e outras linguagens, ele fornece uma maneira fácil de controlar um navegador de forma automatizado. Com o Puppeteer, você pode criar scripts que navegam os sites da internet, e interagir com elementos da página, coletar informações e muito mais. Além disso, o Puppeteer é compatível com a maioria dos navegadores populares, como o Chrome, o Firefox e o Safari.
 
 Com essas propriedades, o Puppeteer permite que possamos realizar web crawling e web scraping em sites da internet.
 
-## Web Crawling vs. Web Scraping
+### Web Crawling vs. Web Scraping
 Antes de começarmos, vamos esclarecer a diferença entre web crawling e web scraping.
 
 O web crawling é o processo de coletar dados de vários sites da internet de maneira sistemática. É como se você estivesse rastreando a internet em busca de informações. O objetivo do web crawling é coletar o máximo de dados possível em um determinado assunto, seja para fins de pesquisa, análise de mercado ou outra finalidade.
@@ -24,14 +24,14 @@ Já o web scraping é o processo de extrair informações específicas de uma si
 
 Agora que sabemos a diferença entre web crawling e web scraping, vamos ver como usar o Puppeteer para realizar essas tarefas.
 
-## Instalação do Puppeteer
+### Instalação do Puppeteer
 Para começar, precisamos instalar o Puppeteer. Você pode instalar o Puppeteer usando o npm, o gerenciador de pacotes do Node.js.
 ```bash
 npm install puppeteer
 ```
 Depois de instalado, podemos começar a usar o Puppeteer em nossos scripts.
 
-## Exemplo de Web Crawling
+### Exemplo de Web Crawling
 Vamos começar com um exemplo de web crawling. Neste exemplo, vamos usar o Puppeteer para coletar todas as URLs em uma página da web e, em seguida, seguir cada URL e coletar todas as URLs em cada página vinculada.
 
 Para isso, vamos criar um arquivo `index.js` conforme a seguir.
@@ -135,7 +135,7 @@ Uma das funcionalidades é tirar capturas de tela da sessão do browser controla
 
 Estes são apenas exemplos simples, mas com possibilidades ilimitadas, pois poderíamos extrair uma grande quantidade de informações úteis a partir de sites, tais como: preços de produtos, informações de contato, dados de tabelas, dentre outros. Assim como, realizar automações para tarefas repetitivas, ou testes de interface de usuário simulando um cliente final, onde poderíamos executar cliques em botões, e fazer uma experiência completa.
 
-## Conclusão
+### Conclusão
 O Puppeteer é uma ótima ferramenta para web crawling e web scraping em sites da internet. Ele nos permite automatizar ações no navegador, interagir com elementos da página e extrair informações específicas. Com o Puppeteer, podemos facilmente coletar dados de uma variedade de fontes, como sites de notícias, plataformas de mídia social, sites de comércio eletrônico e muito mais.
 
 No entanto, é importante lembrar que o web scraping deve ser realizado de forma ética e legal. Alguns sites podem ter termos de serviço que proíbem o scraping de seus dados ou podem considerar o scraping de seus dados como uma violação de seus direitos autorais. Vale ressaltar também que muitos sites hoje em dia contém com mecanismos anti robôs, como o reCAPTCHA da Google por exemplo, que identifica comportamento de robôs como os que criamos acima, e realiza o bloqueio destes scripts.
