@@ -3,7 +3,7 @@ layout: post
 title:  "Let's test spoilers"
 author: david
 categories: [ Jekyll, tutorial ]
-image: assets/images/placeholder.png
+image: assets/images/posts/nodejs-webcrawler.webp
 featured: true
 hidden: true
 comments: true
