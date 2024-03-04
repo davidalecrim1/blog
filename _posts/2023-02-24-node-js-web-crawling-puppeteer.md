@@ -93,9 +93,9 @@ Este script abre o site do [Medium](https://www.medium.com) em uma instância do
 Em seguida, o script segue cada URL na fila e repete o processo, coletando todas as URLs em cada página vinculada e adicionando-as à fila. Como boa prática, foi adicionado um limite de crawling para evitar tempo de execução extensivo.
 Executando esse script com Node.js, executando o comando node index.js temos o seguinte resultado:
 
-![](assets/images/posts/puppeteer-result-01.png)
+![](../assets/images/posts/puppeteer-result-01.png)
 
-Já para termos um exemplo de script para web scraping, o script a seguir abre a página inicial do site [Example](https://www.example.com/) e extrai o texto do título da página (elemento `<h1>`) e o texto do primeiro parágrafo da página (elemento `<p>`). Em seguida, ele exibe essas informações no terminal.
+Já para termos um exemplo de script para web scraping, o script a seguir abre a página inicial do site [example.com](https://www.example.com/) e extrai o texto do título da página (elemento `<h1>`) e o texto do primeiro parágrafo da página (elemento `<p>`). Em seguida, ele exibe essas informações no terminal.
 
 ```javascript
 const puppeteer = require('puppeteer');
@@ -126,11 +126,11 @@ const puppeteer = require('puppeteer');
 
 Executando esse script com Node.js, executando o comando node index.js temos o seguinte resultado:
 
-![](assets/images/posts/puppeteer-result-02.png)
+![](../assets/images/posts/puppeteer-result-02.png)
 
-Uma das funcionalidades é tirar capturas de tela da sessão do browser controlada pelo Puppeteer, como no exemplo a seguir com a página do [Example](https://www.example.com).
+Uma das funcionalidades é tirar capturas de tela da sessão do browser controlada pelo Puppeteer, como no exemplo a seguir com a página do [example.com](https://www.example.com).
 
-![](assets/images/posts/puppeteer-result-03.png)
+![](../assets/images/posts/puppeteer-result-03.png)
 
 
 Estes são apenas exemplos simples, mas com possibilidades ilimitadas, pois poderíamos extrair uma grande quantidade de informações úteis a partir de sites, tais como: preços de produtos, informações de contato, dados de tabelas, dentre outros. Assim como, realizar automações para tarefas repetitivas, ou testes de interface de usuário simulando um cliente final, onde poderíamos executar cliques em botões, e fazer uma experiência completa.
@@ -143,4 +143,4 @@ Após a compreensão dos conceitos de web crawling e web scraping e seu uso, con
 
 Com a imagem a seguir, conseguimos visualizar diversas informações de vários sites da internet, e como os mecanismo de buscam usam o que foi indexado (ou seja, salva e manipula o HTML puro como fizemos acima) para trazer uma experiência customizada para o usuário.
 
-![](assets/images/posts/exemplo-google-01.png)
+![](../assets/images/posts/exemplo-google-01.png)
