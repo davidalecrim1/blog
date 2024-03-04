@@ -3,7 +3,7 @@ layout: post
 title:  "\"Por baixo do capô\" — Entendendo como funciona uma linguagem de programação"
 author: david
 categories: [ Python, Engenharia de Software ]
-image: assets/images/python-logo.webp
+image: assets/images/posts/python-logo.webp
 featured: true
 hidden: true
 comments: true
@@ -40,6 +40,7 @@ Este processo é repetido cada vez que o programa é executado. Ele pode ser res
 Por trás de cada linha de código, há um vasto mundo de decisões e compromissos que foram cuidadosamente considerados para permitir que os programadores desenvolvam soluções eficientes e robustas para uma ampla variedade de problemas.
 
 A distinção entre linguagens compiladas e interpretadas, bem como entre linguagens dinamicamente e estaticamente tipadas, ressalta a diversidade de abordagens disponíveis para os desenvolvedores e as trocas inerentes a cada escolha. Não há uma solução única ou correta, mas sim uma série de trade-offs que devem ser ponderados de acordo com as necessidades específicas de cada projeto. Lembre-se de escolher bem conforme cada necessidade.
+
 Por fim, espero que esse entendimento de como as linguagens de programação interpretadas funcionam possa ajudar em sua visão mais holística desse mundo complexo e maravilhoso de engenharia de software.
 
 Até a próxima. Se chegou até aqui, deixe sua curtida.

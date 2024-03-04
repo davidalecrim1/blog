@@ -2,7 +2,7 @@
 layout: post
 title:  "Como fazer Web Crawling e Web Scraping com Node.js e o Puppeteer"
 author: david
-categories: [ Node.JS, JavaScript, Engenharia de Software]
+categories: [ NodeJS, JavaScript, Engenharia de Software]
 image: assets/images/posts/nodejs-webcrawler.webp
 comments: true
 ---
