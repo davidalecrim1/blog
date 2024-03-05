@@ -3,7 +3,7 @@ layout: post
 title:  "Importando recursos existentes no Terraform e gerando sua declaração automaticamente"
 author: david
 categories: [ Infra as Code, Terraform, AWS, Nuvem ]
-image: assets/images/posts/python-logo.webp
+image: assets/images/posts/terraform-logo.webp
 featured: true
 hidden: true
 comments: true
