@@ -4,8 +4,6 @@ title:  "O Futuro dos Mecanismos de Busca na Internet"
 author: david
 categories: [ Google, Search Engine ]
 image: assets/images/posts/old-google.webp
-featured: true
-hidden: true
 comments: true
 
 ---
