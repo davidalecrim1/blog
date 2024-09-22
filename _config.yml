@@ -5,7 +5,7 @@ description: "Conhecimento é poder 🎈"
 logo: "assets/images/logo.jpg"
 favicon: "assets/images/logo.jpg"
 baseurl: /blog
-# google_analytics: 'TODO'
+google_analytics: "G-XRZP1H7KSE"
 disqus: "davidalecrim1blog"
 include: ["_pages"]
 permalink: /:title/
