@@ -4,8 +4,6 @@ title:  "\"Por baixo do capô\" — Entendendo como funciona uma linguagem de pr
 author: david
 categories: [ Python, Engenharia de Software ]
 image: assets/images/posts/python-logo.webp
-featured: true
-hidden: true
 comments: true
 ---
 
