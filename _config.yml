@@ -1,12 +1,12 @@
 # Site
 name: "Curiosity"
 title: "Curiosity"
-description: "Conhecimento é poder 📖🎈"
-logo: 'assets/images/logo.jpg'
-favicon: 'assets/images/logo.jpg'
+description: "Conhecimento é poder 🎈"
+logo: "assets/images/logo.jpg"
+favicon: "assets/images/logo.jpg"
 baseurl: /blog
 # google_analytics: 'TODO'
-disqus: 'davidalecrim1blog'
+disqus: "davidalecrim1blog"
 include: ["_pages"]
 permalink: /:title/
 
@@ -18,7 +18,6 @@ authors:
     avatar: "assets/images/avatar/david.jpeg"
     email: david.socer@hotmail.com
     web: https://www.linkedin.com/in/dsalecrim/
-    twitter: https://twitter.com/david_alecrim1
     description: "Passionate Software Engineer"
 
 # Plugins
@@ -28,19 +27,19 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
+    category: "/category/:name/"
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
