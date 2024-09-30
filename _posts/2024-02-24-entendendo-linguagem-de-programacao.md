@@ -40,5 +40,3 @@ Por trás de cada linha de código, há um vasto mundo de decisões e compromiss
 A distinção entre linguagens compiladas e interpretadas, bem como entre linguagens dinamicamente e estaticamente tipadas, ressalta a diversidade de abordagens disponíveis para os desenvolvedores e as trocas inerentes a cada escolha. Não há uma solução única ou correta, mas sim uma série de trade-offs que devem ser ponderados de acordo com as necessidades específicas de cada projeto. Lembre-se de escolher bem conforme cada necessidade.
 
 Por fim, espero que esse entendimento de como as linguagens de programação interpretadas funcionam possa ajudar em sua visão mais holística desse mundo complexo e maravilhoso de engenharia de software.
-
-Até a próxima. Se chegou até aqui, deixe sua curtida.

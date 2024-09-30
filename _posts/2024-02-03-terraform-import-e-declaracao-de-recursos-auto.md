@@ -55,5 +55,3 @@ Como mencionado no comando, será criado um arquivo chamado `generated.tf`, vamo
 
 ### Conclusão
 Com ambos recursos de `import` e `generate-config-out`, conseguimos avisar o ciclo de vida do Terraform que o recurso existe, seja por qual motivo for, e além disso também gerar a declaração do recurso, tornando tudo bem mais fácil na migração da infraestrutura criada via console para infraestrutura como código.
-
-Caso tenha lido até aqui, deixe sua curtida se gostou do conteúdo! Até a próxima!
