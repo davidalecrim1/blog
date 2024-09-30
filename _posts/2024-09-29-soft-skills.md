@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Quanto importante são as habilidades interpessoais, os famosos soft skills na carreira de tecnologia?"
+title:  Quanto importante são as habilidades interpessoais, os famosos soft skills na carreira de tecnologia?
 author: david
 categories: [ Soft Skills, Gestão, Liderança]
 image: assets/images/posts/soft-skills.webp
