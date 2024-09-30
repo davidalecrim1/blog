@@ -3,7 +3,7 @@ name: "Curiosity"
 title: "Curiosity"
 description: "Conhecimento é poder 🎈"
 logo: "assets/images/logo.jpg"
-favicon: "assets/images/logo.jpg"
+favicon: "assets/images/favicon.ico"
 baseurl: /blog
 google_analytics: "G-XRZP1H7KSE"
 disqus: "davidalecrim1blog"
