@@ -72,7 +72,11 @@
 }
 
 td.rouge-code { width: 100%;}
-pre.lineno { color: #9999;}
+
+pre.lineno { 
+    color: #9999;
+    padding-right: 5px;
+}
 
 /* Tags CSS */
 ul.tags {
