@@ -64,15 +64,15 @@ func updateSaldo(db *sql.DB, id int, amount int) error {
     }
     defer tx.Rollback()
 
-    var saldo int
-    var versao int
-    err = tx.QueryRow("SELECT saldo, versao FROM contas WHERE id = $1", id).Scan(&saldo, &versao)
+    var balance int
+    var version int
+    err = tx.QueryRow("SELECT balance, version FROM accounts WHERE id = $1", id).Scan(&balance, &version)
     if err != nil {
         return err
     }
 
     // Try to update the balance and version
-    res, err := tx.Exec("UPDATE contas SET saldo = $1, versao = versao + 1 WHERE id = $2 AND versao = $3", saldo+amount, id, versao)
+    res, err := tx.Exec("UPDATE accounts SET balance = $1, version = version + 1 WHERE id = $2 AND version = $3", balance+amount, id, version)
     if err != nil {
         return err
     }
@@ -83,7 +83,7 @@ func updateSaldo(db *sql.DB, id int, amount int) error {
     }
 
     if rowsAffected == 0 {
-        return fmt.Errorf("Conflito de versão, tente novamente")
+        return fmt.Errorf("version conflict! try again...")
     }
 
     return tx.Commit()
@@ -99,9 +99,9 @@ func main() {
 
     err = updateSaldo(db, 1, 200)
     if err != nil {
-        fmt.Println("Erro ao atualizar saldo:", err)
+        fmt.Println("error updating the balance:", err)
     } else {
-        fmt.Println("Saldo atualizado com sucesso")
+        fmt.Println("balance updated sucessfuly.")
     }
 }
 ```
