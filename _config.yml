@@ -1,24 +1,24 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title: David Alecrim
+email: david.socer@hotmail.com
+description: A place to share knowledge mostly about Software Engineering
+author: David Alecrim
+baseurl: "/new-blog"
+url: "https://davidalecrim1.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
+twitter_username: https://x.com/davidalecrim12
+github_username: davidalecrim1
+facebook_username:
+instagram_username: davidalecrim1
+linkedin_username: davidalecrim1
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics: G-XRZP1H7KSE
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
