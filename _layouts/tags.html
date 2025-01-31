@@ -28,7 +28,7 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     // Get tag from the URL path (e.g., /tags/golang)
-    let tag = window.location.pathname.split("#").pop();
+    let tag = window.location.href.split("#").pop();
     tag = decodeURIComponent(tag);
 
     document.getElementById("tag-title").textContent = `Posts tagged: ${tag}`;
