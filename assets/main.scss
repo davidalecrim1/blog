@@ -73,3 +73,27 @@
 
 td.rouge-code { width: 100%;}
 pre.lineno { color: #9999;}
+
+/* Tags CSS */
+ul.tags {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 3rem 0;
+}
+
+ul.tags li {
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+ul.tags li a {
+    background: rgba(0, 0, 0, .05);
+    color: rgba(0, 0, 0, .6);
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+ul.tags li a:hover {
+    background: rgba(0, 0, 0, .07);
+    text-decoration: none;
+}
