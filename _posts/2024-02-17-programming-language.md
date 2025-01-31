@@ -4,6 +4,8 @@ title:  "Race conditions. Have you ever heard about it?"
 subtitle: "Behind Every Line of Code: The Complex World of Software Engineering"
 date: 2024-02-24 00:00:00 -0300
 background: ''
+tags: [programming, python]
+
 ---
 
 Behind every line of code in a simple program written in any programming language lies a vast and complex world, meticulously designed to create and manipulate digital systems. In this realm of software engineering, there is no absolute right or wrong—only trade-offs in every decision. Whether it's an interpreted or compiled language, or a hybrid approach combining both, each has its own advantages and challenges.  

@@ -4,6 +4,8 @@ title:  "Importing Existing Resources into Terraform and Automatically Generatin
 subtitle: ""
 date: 2024-02-03 00:00:00 -0300
 background: ''
+tags: [terraform, iac]
+
 ---
 
 One of the challenges that technology teams face when managing cloud resources is dealing with infrastructure that was not initially created using Infrastructure as Code (IaC) tools like Terraform. Without IaC, teams miss out on various benefits, such as reusability across projects, and may experience difficulties when transitioning to this methodology, which integrates infrastructure as code with application repositories and CI/CD pipelines.

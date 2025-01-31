@@ -4,7 +4,7 @@ title:  "Race conditions. Have you ever heard about it?"
 subtitle: ""
 date: 2024-09-22 00:00:00 -0300
 background: '/img/posts/race-condition.webp'
-tags: [Programming, Golang]
+tags: [programming, golang]
 ---
 
 Every developer, at some point, needs to understand and know the implications of race conditions in appication development, especially when interacting with databases on the backend.

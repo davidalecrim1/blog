@@ -4,6 +4,8 @@ title:  "How to Do Web Crawling and Web Scraping with Node.js and Puppeteer"
 subtitle: ""
 date: 2023-02-24 00:00:00 -0300
 background: '/img/posts/nodejs-webcrawler.webp'
+tags: [programming, nodejs]
+
 ---
 
 At some point, everyone has needed to "Google something," search for information, and find a website to explore the content in more detail. However, one thing we rarely stop to think about is how the indexing of billions of websites is done and how search engines like Bing, Google, and Yandex present various results to us. But even more importantly, how does this system work?  
