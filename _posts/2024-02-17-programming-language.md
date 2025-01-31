@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Race conditions. Have you ever heard about it?"
-subtitle: "Behind Every Line of Code: The Complex World of Software Engineering"
+title:  "Under the Hood — Understanding How a Programming Language Works"
+subtitle: ""
 date: 2024-02-24 00:00:00 -0300
 background: ''
 tags: [programming, python]
