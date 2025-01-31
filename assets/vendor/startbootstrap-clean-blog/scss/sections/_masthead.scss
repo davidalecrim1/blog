@@ -1,9 +1,8 @@
 // Styling for the masthead
 header.masthead {
     // TIP: Background images are set within the HTML using inline CSS!
-    margin-bottom: 50px;
     background: no-repeat center center;
-    background-color: $gray-600;
+    background-color: $black;
     background-attachment: scroll;
     position: relative;
     background-size: cover;
@@ -23,10 +22,6 @@ header.masthead {
     .site-heading {
         padding: 200px 0 150px;
         color: white;
-
-        @media only screen and (min-width: 768px) {
-            padding: 200px 0;
-        }
     }
 
     .page-heading,
