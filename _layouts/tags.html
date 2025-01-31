@@ -3,20 +3,13 @@ layout: default
 ---
 
 <!-- Page Header -->
-{% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//' , '/' }}')">
-{% else %}
 <header class="masthead">
-{% endif %}
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="page-heading">
-          <h2>{{ site.home_title }}</h2>
-          {% if site.description %}
-          <span class="subheading">{{ site.description }}</span>
-          {% endif %}
+          <h2 id="tag-title"></h2>
         </div>
       </div>
     </div>
@@ -26,39 +19,53 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
-
-      {{ content }}
-
-      <!-- Filtered Post List -->
-      {% if page.tag %}
-        {% assign filtered_posts = site.posts | where: "tags", page.tag %}
-      {% else %}
-        {% assign filtered_posts = site.posts %}
-      {% endif %}
-
-      {% for post in filtered_posts limit: 5 %}
-      <article class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl | replace: '//' , '/' }}">
-          <h2 class="post-title">{{ post.title }}</h2>
-          {% if post.subtitle %}
-          <h6 class="post-subtitle">{{ post.subtitle }}</h6>
-          {% else %}
-          <h6 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h6>
-          {% endif %}
-        </a>
-        <p class="post-meta">Posted by
-          {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
-          on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-        </p>
-      </article>
-      <hr>
-      {% endfor %}
-
-      <!-- Pager -->
-      <div class="clearfix">
-        <a class="btn btn-primary float-right" href="{{ "/posts" | relative_url }}">View All Posts &rarr;</a>
-      </div>
-
+      <div id="posts-container"></div>
+      <!-- JavaScript will populate this -->
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get tag from the URL path (e.g., /tags/golang)
+    let tag = window.location.pathname.split("/").pop();
+    tag = decodeURIComponent(tag);
+
+    document.getElementById("tag-title").textContent = `Posts tagged: ${tag}`;
+
+    // List of posts from Jekyll (exported as JSON)
+    let posts = [
+      {% for post in site.posts %}
+        {
+          "title": "{{ post.title }}",
+          "url": "{{ post.url | relative_url }}",
+          "excerpt": "{{ post.excerpt | strip_html | truncatewords: 15 }}",
+          "date": "{{ post.date | date: '%B %d, %Y' }}",
+          "tags": [{% for tag in post.tags %}"{{ tag }}"{% if forloop.last == false %}, {% endif %}{% endfor %}]
+        }{% if forloop.last == false %}, {% endif %}
+      {% endfor %}
+    ];
+
+    // Filter posts that contain the tag
+    let filteredPosts = posts.filter(post => post.tags.includes(tag));
+
+    // Display filtered posts
+    let postsContainer = document.getElementById("posts-container");
+    if (filteredPosts.length > 0) {
+      filteredPosts.forEach(post => {
+        postsContainer.innerHTML += `
+          <article class="post-preview">
+            <a href="${post.url}">
+              <h2 class="post-title">${post.title}</h2>
+              <h6 class="post-subtitle">${post.excerpt}</h6>
+            </a>
+            <p class="post-meta">Posted on ${post.date}</p>
+          </article>
+          <hr>
+        `;
+      });
+    } else {
+      postsContainer.innerHTML = "<p>No posts found with this tag.</p>";
+    }
+  });
+</script>
