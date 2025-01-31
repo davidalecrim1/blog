@@ -91,7 +91,7 @@ The script then follows each queued URL and repeats the process, collecting URLs
 
 Running this script with Node.js using `node index.js` produces the following result:  
 
-![](../img/posts/puppeteer-result-01.png)  
+![](../../../img/posts/puppeteer-result-01.png)  
 
 Now, let’s look at a web scraping example. The following script opens the homepage of [example.com](https://www.example.com/), extracts the page title (`<h1>`) and the first paragraph (`<p>`), and displays them in the terminal.  
 
@@ -123,11 +123,11 @@ const puppeteer = require('puppeteer');
 
 Running this script with Node.js using `node index.js` produces the following result:  
 
-![](../img/posts/puppeteer-result-02.png)  
+![](../../../img/posts/puppeteer-result-02.png)  
 
 One of Puppeteer’s features is the ability to take screenshots of the browser session, as shown in the example below using [example.com](https://www.example.com):  
 
-![](../img/posts/puppeteer-result-03.png)  
+![](../../../img/posts/puppeteer-result-03.png)  
 
 These are just simple examples, but the possibilities are limitless. You can extract a vast amount of useful information from websites, such as product prices, contact details, and table data. You can also automate repetitive tasks or conduct UI testing by simulating user interactions, such as clicking buttons and completing full user experiences.  
 
@@ -140,4 +140,4 @@ Understanding web crawling and web scraping concepts helps us see how search eng
 
 The image below illustrates how search engines aggregate information from multiple websites and use indexed data (i.e., storing and processing raw HTML, as we did above) to provide a customized experience for users.  
 
-![](../img/posts/exemplo-google-01.png)  
+![](../../../img/posts/exemplo-google-01.png)  

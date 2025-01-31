@@ -50,7 +50,7 @@ For educational purposes, let’s use Python as an example, keeping in mind that
 
 This process repeats every time the program is run. The steps can be visualized in the diagram below:  
 
-![Step-by-step breakdown of the interpreted language execution process](../img/posts/linguagem-interpretada-workflow.webp)  
+![Step-by-step breakdown of the interpreted language execution process](../../../img/posts/linguagem-interpretada-workflow.webp)  
 
 It's important to note that this is a simplified explanation for educational purposes. Many complexities are abstracted away, and each programming language and operating system has its own specific implementation details.  
 

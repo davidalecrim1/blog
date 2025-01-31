@@ -17,7 +17,7 @@ Let’s consider creating an S3 bucket using Terraform:
 
 However, the issue arises when the application using this infrastructure is already in production. What can we do in such cases? As shown below, the bucket already exists in the AWS account.
 
-![Screenshot of the AWS console with a bucket named "meu-bucket-aws-demo-01".](../img/posts/exemplo-bucket-s3-aws.webp)
+![Screenshot of the AWS console with a bucket named "meu-bucket-aws-demo-01".](../../../img/posts/exemplo-bucket-s3-aws.webp)
 
 Now, let’s run `terraform plan` and observe the outcome.
 
