@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How to Do Web Crawling and Web Scraping with Node.js and Puppeteer"
-subtitle: ""
 date: 2023-02-24 00:00:00 -0300
 background: '/img/posts/nodejs-webcrawler.webp'
 tags: [programming, nodejs]

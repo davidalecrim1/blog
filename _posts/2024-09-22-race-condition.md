@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Race conditions. Have you ever heard about it?"
-subtitle: ""
 date: 2024-09-22 00:00:00 -0300
 background: '/img/posts/race-condition.webp'
 tags: [programming, golang]
