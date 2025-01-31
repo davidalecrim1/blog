@@ -3,7 +3,7 @@ home_title: A Software Engineer Blog
 email: david.socer@hotmail.com
 description: A place to share knowledge
 author: David Alecrim
-baseurl: "/new-blog"
+baseurl: "/blog"
 url: "https://davidalecrim1.github.io"
 
 # Social Profiles
