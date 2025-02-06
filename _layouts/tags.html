@@ -59,15 +59,7 @@ layout: default
               <h2 class="post-title">${post.title}</h2>
               <h6 class="post-subtitle">${post.excerpt}</h6>
             </a>
-            <p class="post-meta">Posted by
-              {% if post.author %}
-              {{ post.author }}
-              {% else %}
-              {{ site.author }}
-              {% endif %}
-              on
-              {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-            </p>
+            <p class="post-meta">Posted on ${post.date}</p>
           </article>
           <hr>
         `;
