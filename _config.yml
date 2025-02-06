@@ -5,6 +5,7 @@ description: A place to share knowledge
 author: David Alecrim
 baseurl: "/blog"
 url: "https://davidalecrim1.github.io"
+favicon: "img/favicon.ico"
 
 # Social Profiles
 twitter_username: davidalecrim12
